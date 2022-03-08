@@ -23,4 +23,4 @@ RUN adduser --gecos "" --disabled-password cdk-user
 USER cdk-user
 WORKDIR /home/cdk-user
 
-ENTRYPOINT cdk
+ENTRYPOINT ["cdk"]
